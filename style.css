@@ -1,0 +1,29 @@
+*{
+            margin: 0;
+            padding: 0;          
+}
+
+nav{
+            background-color:black;
+            padding: 1rem;
+}
+
+nav ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+}
+
+nav ul li{
+           display: inline;
+}
+
+nav ul li a{
+            text-decoration: none;
+            color: white;
+         
+}
+
+nav ul li a:hover{
+            color: rgb(51, 183, 18);
+}
